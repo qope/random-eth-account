@@ -1,0 +1,16 @@
+[package]
+name = "random-eth-account"
+version = "0.1.0"
+edition = "2021"
+authors = ["qope"]
+description = "A simple CLI tool to generate a random Ethereum account"
+license = "CC0-1.0"
+repository = "https://github.com/qope/random-eth-account"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = { version = "4.5.20", features = ["derive"] }
+ethers = "2.0"
+rand_chacha = "0.3.1"
+
